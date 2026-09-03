@@ -1,0 +1,35 @@
+body{
+	margin:40px auto;
+	max-width:650px;
+	line-height:1.6;
+	font-size:18px;
+	font-family: helvetica, sans-serif;
+	background-color:#DDD;	
+	color:#444;
+	padding:0 10px
+}
+
+img.headshot{
+  	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p.footer{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-style: italic;
+}
+
+
+@media (prefers-color-scheme: dark) {
+	body {
+	      background-color:#000;	
+	      color:#FF7E00;
+	}
+	a {
+		color: #E00;
+	}
+}
