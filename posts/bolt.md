@@ -13,3 +13,6 @@ This is with in-line HTML.
 ## What is a Bolt?
 
 SECOND HEADER TEST
+
+## This is a Third Header
+TEST.
