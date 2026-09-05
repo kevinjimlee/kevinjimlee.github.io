@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Kevin Lee</title>
+  <link rel="stylesheet" href="/assets/css/style.css?v=2">
+  <link rel="stylesheet" href="/assets/css/nav.css?v=2">
+  <link rel="stylesheet" href="/assets/css/blog.css?v=2">
+  <link href="https://fonts.cdnfonts.com/css/latin-modern-math" rel="stylesheet">
+
+  <link rel="icon" href="/assets/icons/icontest.ico" sizes="any">
+  <link rel="icon" href="/assets/icons/icontest.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/icontest 96x96.png">
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+<style>
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.gallery-item:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+
+</head>
+<body class="blog-body">
+
+  <header class="site-header">
+    <nav class="site-nav">
+      <a href="/" class="nav-name">Kevin Lee</a>
+      <ul class="nav-links">
+        <li><a href="/#about">About</a></li>
+        <li><a href="/#news">News</a></li>
+        <li><a href="/portfolio.html">"Portfolio"</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+      </ul>
+      <div class="nav-search">
+        <button class="search-toggle" aria-label="Search">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <div class="blog-wrapper">
+  <div class="blog-layout">
+
+    <!-- Sidebar -->
+    <aside class="blog-sidebar">
+      <div class="sidebar-section">
+        <h3>Blog <span class="ref"></span></h3>
+        <hr class="sidebar-hr">
+        <ul class="filter-list">
+          <li>
+            <button class="filter-btn active" data-tag="all">All</button>
+          </li>
+          <li>
+            <button class="filter-btn" data-tag="photoshop">photoshop</button>
+          </li>
+          <li>
+            <button class="filter-btn" data-tag="doodle">doodle</button>
+          </li>
+          <li>
+            <button class="filter-btn" data-tag="notes">Notes</button>
+          </li>
+          <li>
+            <button class="filter-btn" data-tag="misc">Misc</button>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Post list -->
+    <main class="blog-main">
+      <div class="post-count"><span id="visible-count"></span> posts</div>
+    <div class="gallery">
+        <ul class="post-list">
+          <!--TEST -->
+          <li class="post-item" data-tags="photoshop">
+            <div class="post-meta">
+              <span class="post-date">2026</span>
+              <span class="post-tags">
+              <span class="tag">photoshop</span>
+            </span>
+          </div>
+          <h2 class="post-title">May 2026</h2>
+<div class="gallery-item">
+  <a target="_blank" href="/posts/portfolio/desire.jpg">
+    <img src="desire.jpg" alt=""Desire"" width="600" height="400">
+  </a>
+  <div class="desc">"Desire"</div>
+</div>
+          <p class="post-excerpt">
+            Edits from May 2026
+          </p>
+        </li>
+        <li class="post-item" data-tags="doodle">
+          <div class="post-meta">
+            <span class="post-date">2025</span>
+            <span class="post-tags">
+              <span class="tag">doodle</span>
+            </span>
+          </div>
+          <h2 class="post-title">Mox Zirconia, 2025</h2>
+          <div class="gallery-item">
+            <a target="_blank" href="/posts/portfolio/moxzirconia.jpg">
+    <img src="moxzirconia.jpg" alt="Mox Zirconia" width="600" height="400">
+  </a>
+  <div class="desc">"Mox Zirconia"</div>
+</div>
+          <h2 class="post-title">SMH Draft Archetypes, 2025</h2>
+          <div class="gallery-item">
+            <a target="_blank" href="/posts/portfolio/smhdraftarchetypes.jpg">
+    <img src="smhdraftarchetypes.jpg" alt="SMH Draft Archetypes" width="600" height="400">
+  </a>
+  <div class="desc">"SMH Draft Archetypes"</div>
+</div>
+        </li>
+      </ul>
+
+      <div class="no-posts" id="no-posts" style="display:none;">
+        No posts in this category yet.
+      </div>
+    </div>
+    </main>
+
+  </div>
+  </div>
+
+  <script src="/assets/js/blog.js"></script>
+  <script src="/assets/js/search-data.js"></script>
+  <script src="/assets/js/nav.js"></script>
+</body>
+</html>
