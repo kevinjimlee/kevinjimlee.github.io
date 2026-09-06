@@ -16,3 +16,7 @@ SECOND HEADER TEST
 
 ## This is a Third Header
 TEST.
+
+<p class="notice">
+    <strong>This is a test? This should be STRONG</strong><br> This is currently written in HTML in a markdown file, so this link here for <a href="https://scryfall.com/">Scryfall</a> might work. 
+  </p>
