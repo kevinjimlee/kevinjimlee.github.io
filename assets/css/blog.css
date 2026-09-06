@@ -43,7 +43,7 @@ body.blog-body {
 
 .sidebar-section h3 {
   font-weight: normal;
-  margin: 0 0 0.4rem;
+  margin: 0 0 0.6rem;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -52,7 +52,7 @@ body.blog-body {
 .sidebar-hr {
   border: none;
   border-top: 1px solid rgba(0,0,0,0.15);
-  margin: 0 0 0.4rem;
+  margin: 0 0 0.8rem;
 }
 
 .filter-list {
