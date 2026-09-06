@@ -12,7 +12,7 @@ window.SEARCH_INDEX = [
     excerpt: "I HAVE NO NEWS"
   },
   {
-    title: ""Portfolio"",
+    title: "Portfolio",
     type: "Page",
     url: "/portfolio.html",
     excerpt: "Doodles???"
