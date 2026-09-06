@@ -12,10 +12,11 @@ window.SEARCH_INDEX = [
     excerpt: "I HAVE NO NEWS"
   },
   {
-    title: "Projects",
+    title: ""Portfolio"",
     type: "Page",
-    url: "/#projects",
-    excerpt: "IT'S ONLY SMH."
+    url: "/portfolio.html",
+    excerpt: "Doodles???"
+    
   },
   {
     title: "Blog",
@@ -28,11 +29,5 @@ window.SEARCH_INDEX = [
     type: "Post",
     url: "/article.html?post=blog",
     excerpt: "TEST."
-  },
-  {
-    title: "AGHHHH,
-    type: "Project",
-    url: "/article.html?project=semi-online",
-    excerpt: "AGHH."
   }
 ];
