@@ -1,5 +1,5 @@
 # References
-A collection of the sites that I have used as reference for building this site! Constructing this site on html vs bolt as Markdown. <br>
+A collection of the sites that I have used as reference for building this site! Constructing this site in Markdown. <br>
 
 
 <a href="https://htmlforpeople.com/">HTML for People</a> <br>
