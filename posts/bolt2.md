@@ -7,7 +7,7 @@ Magic the Gathering^TM^ has a long extensive history. This article will assume s
 
 ___
 <ul>
-<li>-[X] Write about the Mana Curve </li>
+<li>-[x] Write about the Mana Curve </li>
 <li>-[ ] Write about the trading of resources</li>
 <li>-[ ] Write about the differences of knobs</li>
 <li>-[ ] Write about Bolt vs Shock vs Lightning Strike \(vs Strangle\)</li>
