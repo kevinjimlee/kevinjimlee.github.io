@@ -6,7 +6,9 @@ Magic the Gathering^TM^ has a long extensive history. This article will assume s
 [Sanctuary Cat](https://scryfall.com/card/dka/19/sanctuary-cat) This example can't work as the cat is a 1/2.
 
 ___
--[ ] Write about the Mana Curve
--[ ] Write about the trading of resources
--[ ] Write about the differences of knobs
--[ ] Write about Bolt vs Shock vs Lightning Strike \(vs Strangle\)
+<ul>
+<li>-[X] Write about the Mana Curve </li>
+<li>-[ ] Write about the trading of resources</li>
+<li>-[ ] Write about the differences of knobs</li>
+<li>-[ ] Write about Bolt vs Shock vs Lightning Strike \(vs Strangle\)</li>
+</ul>
