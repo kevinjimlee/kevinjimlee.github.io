@@ -22,7 +22,7 @@ We can see from these two cards we can adjust the <em>Knobs</em> of the cards Li
 The powerlevel of these two cards compared to Lightning Bolt are drastically different however and it's not immediately evident why the subtle change of a singular value (by only +/- 1 value!) can have such a drastic change.
 
 ## What's the point? The Mana Curve.
-So I make the claim that changing Lightning Bolt from 3 &rarr 2 damage or R->1R (1->2 mana value) is something <em>drastic</em>. Why?
+So I make the claim that changing Lightning Bolt from 3 &rArr; 2 damage or R->1R (1->2 mana value) is something <em>drastic</em>. Why?
 
 MTG is a game with a long history and design has grown from that history due to a number of factors, momentum being one of them. It's not a precise answer to give "It's been done like that before", but the adage (and the problem of induction) is the strong justification for why designs are made as such: Emperical Evidence suggests deviations can lead to <em>problems</em>.
 
