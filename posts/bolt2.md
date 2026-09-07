@@ -10,5 +10,5 @@ ___
 <li>-[x] Write about the Mana Curve </li>
 <li>-[ ] Write about the trading of resources</li>
 <li>-[ ] Write about the differences of knobs</li>
-<li>-[ ] Write about Bolt vs Shock vs Lightning Strike \(vs Strangle\)</li>
+<li>-[ ] Write about Bolt vs Shock vs Lightning Strike (vs Strangle)</li>
 </ul>
