@@ -13,6 +13,7 @@ For those that don't know, here is the official rules text on Champion in MTG:
 <li>702.72a Champion represents two triggered abilities. “Champion an [object]” means “When this permanent enters, sacrifice it unless you exile another [object] you control” and “When this permanent leaves the battlefield, return the exiled card to the battlefield under its owner’s control.”</li>
 <li>702.72b The two abilities represented by champion are linked. See rule 607, “Linked Abilities.”</li>
 <li>702.72c A permanent is “championed” by another permanent if the latter exiles the former as the direct result of a champion ability.</li>
+</ui>
 </blockquote>
 
 ## The Cycle of Five 4-Colour Legends
