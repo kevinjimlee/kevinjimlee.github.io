@@ -18,10 +18,10 @@ For those that don't know, here is the official rules text on Champion in MTG:
 
 Champion thus poses two inherent balance concerns:
 1. For a permanent to have Champion exist on the battlefiled, another object (permanent) must be exiled.
-- This means there is an inherent "two-for-one" nature that occurs with every Champion card.
+    - This means there is an inherent "two-for-one" nature that occurs with every Champion card.
 2. Champion is a triggered ability that exiles a permanent upon resolution and returns that permanent when the Champion leaves.
-- Enter the Battlefield (ETB), Leave the Battlefield (LTB), and when objects enter exile from the battlefield effects can be compounded through Champion permanents.
-- This can be an intentional tool to build into the set throughout as a theme (See MaRo's articles about A+B designs).
+    - Enter the Battlefield (ETB), Leave the Battlefield (LTB), and when objects enter exile from the battlefield effects can be compounded through Champion permanents.
+    - This can be an intentional tool to build into the set throughout as a theme (See MaRo's articles about A+B designs).
 
 If we look an examine 1. above further, what does the "two-for-one" nature of Champion implicate (and restrict) on our set design?
 
