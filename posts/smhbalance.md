@@ -37,6 +37,8 @@ Consider [Unsummon](https://scryfall.com/card/m20/78/unsummon) and any of the co
 
 ![Common Blue Champion](https://raw.githubusercontent.com/kevinjimlee/mse/main/SMH/CU02%20%E2%80%94%20Common%20Blue%20Champion.png)
 
-Suppose you have one creature on the battlefield and you cast Common Blue Champion.
+Suppose you have one creature on the battlefield and you cast Common Blue Champion. Your opponent has two opportunities in interacting with your Champion: either before the Champion hits the battlefield (and its ETB triggers) or after the Chsmpion triggers are on the stack.
+
+If your opponent Unsummons your creature on board your Champion must be sacrificed due to 702.72a.
 
 ## The Cycle of Five 4-Colour Legends
