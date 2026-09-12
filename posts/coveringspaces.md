@@ -3,7 +3,9 @@ Kevin Lee
 University of Toronto
 
 ## &sect;0. Abstract
-In this report we collect the definitions related towards covering maps to give rise to the notion of a universal covering space. In Section 1 we recall some definitions and theorems related to covering maps and lifts, in Section 2 we set up and define what the universal covering space is, and in Section 3 and 4 we construct/expose two classic and interesting examples in the study of universal covering spaces. We consulted references [2], [3], [4] for the theorems stated in this report, and will cite these for the proofs later on. We will assume some familiarity and knowledge with point set topology, group theory, some homotopy theory, and what the fundamental group of a topological space is.
+In this report we collect the definitions related towards covering maps to give rise to the notion of a universal covering space. 
+In Section 1 we recall some definitions and theorems related to covering maps and lifts, in Section 2 we set up and define what the universal covering space is, and in Section 3 and 4 we construct/expose two classic and interesting examples in the study of universal covering spaces. 
+We consulted references [2], [3], [4] for the theorems stated in this report, and will cite these for the proofs later on. We will assume some familiarity and knowledge with point set topology, group theory, some homotopy theory, and what the fundamental group of a topological space is.
 	
 ## &sect;1. Covering Maps and Lifts
 We begin by defining what a covering map and respectively what a covering space is for a topological space X.
