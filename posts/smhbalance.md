@@ -37,8 +37,14 @@ Consider [Unsummon](https://scryfall.com/card/m20/78/unsummon) and any of the co
 
 ![Common Blue Champion](https://raw.githubusercontent.com/kevinjimlee/mse/main/SMH/CU02%20%E2%80%94%20Common%20Blue%20Champion.png)
 
-Suppose you have one creature on the battlefield and you cast Common Blue Champion. Your opponent has two opportunities in interacting with your Champion: either before the Champion hits the battlefield (and its ETB triggers) or after the Chsmpion triggers are on the stack.
+Suppose you have one creature on the battlefield and you cast Common Blue Champion. Your opponent has two opportunities in interacting with your Champion: either before the Champion hits the battlefield (and its ETB triggers) or after the Champion triggers are on the stack. In either case if your opponent Unsummons the creature you currently have on board your Champion must be sacrificed due to 702.72a as you have nothing to exile underneath Common Blue Champion.
 
-If your opponent Unsummons your creature on board your Champion must be sacrificed due to 702.72a.
+So what is our workaround here? Unsummon as interaction gives back the creature to the opponent (except tokens), but in this case it acts as a one mana murder that severely affects your tempo.
+
+This means ALL interaction (at least at common) must be built with Champion in mind, otherwise Champion will lead to feel-bad moments where the player casting it will be two-for-one'd, and Champions will act no better than a glorified Aura (more on this later).
+
+The initial playtests for SMH had two main philosophies for I
+
+## Champions are Glorified Auras with Summoning Sickness. What else can we do?
 
 ## The Cycle of Five 4-Colour Legends
