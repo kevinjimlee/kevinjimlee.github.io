@@ -43,7 +43,24 @@ So what is our workaround here? Unsummon as interaction gives back the creature 
 
 This means ALL interaction (at least at common) must be built with Champion in mind, otherwise Champion will lead to feel-bad moments where the player casting it will be two-for-one'd, and Champions will act no better than a glorified Aura (more on this later).
 
-The initial playtests for SMH had two main philosophies for I
+The initial playtests for SMH had two main philosophies for interaction:
+<ol>
+    <li>To prvent two-for-ones interaction has to be at sorcery speed.</li>
+    <li>If a piece of interaction must be at instant speed, the caster has to invest a signficiant amount of mana (4+ mana)<li>
+</ol>
+
+In the end the first restriction turned out to be too swingy. The common Champion cycle is strong; their stats were designed such that any one common Champion can trade with another Champion and they act as mana efficient french vanilla creatures usually slightly ahead of the curve. With a sorcery speed restriction the philopshy was to allow the Champion caster to always get value out of their creature. Compare to how Bestow or Mutate are worded to ensure the caster always gains something, we *cannot* do that here with how Champion is keyworded. 
+
+This unfortunately created a play pattern where one player establishes a threatening board and the defending player must claw back to regain some form of stability, but they have to invest that mana *on their own turn*. Magic is a game of interaction, of trading resources efficiently and effectively, and of playing your pieces in such a way to gain advantages with those resources. Even if the sorceries were efficient or powerful removal pieces, when you are constantly on the backfoot using your own mana on your turn to deal with your opponents' threats (Champions) you are NOT advancing your own boardstate and consuming your own cards and mana to do so.
+
+The second restriction worked well in principle, it significantly reduced any moment of feeling bad when casting a Champion and losing it for a two-for-one, as the large 4+ mana (typically 5 mana for the commons except for one blue instant) would telegraph the interaction and it communicated the risk the player was casting into.
+
+We ended up adjusting the first restriction (and made a bunch of spells wordier) by allowing these spells to be cast with flash but only during the combat phase. This ensured allowed interaction and mana to be spent on your opponents turn (which turns out to be a fundamental piece to how Magic works as a game), and guarantees the Champion caster always gained value from their creature.
+
+
+Another knob we adjusted was to 
+![Soul Reaving](https://raw.githubusercontent.com/kevinjimlee/mse/main/SMH/CB122%20%E2%80%94%20Soul%20Reaving.png)
+
 
 ## Champions are Glorified Auras with Summoning Sickness. What else can we do?
 
