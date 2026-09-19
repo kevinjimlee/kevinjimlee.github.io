@@ -91,7 +91,7 @@ body.article-body {
 }
 
 .article-content {
-  max-width: 620px;
+  max-width: 720px;
 }
 
 .loading {
@@ -126,6 +126,13 @@ body.article-body {
   line-height: 1.65;
   opacity: 0.85;
 }
+
+.article-content ol {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  opacity: 0.85;
+}
+
 
 .article-content a {
   color: #000;
