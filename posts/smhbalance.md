@@ -46,7 +46,7 @@ This means ALL interaction (at least at common) must be built with Champion in m
 The initial playtests for SMH had two main philosophies for interaction:
 <ol>
     <li>To prvent two-for-ones interaction has to be at sorcery speed.</li>
-    <li>If a piece of interaction must be at instant speed, the caster has to invest a signficiant amount of mana (4+ mana)<li>
+    <li>If a piece of interaction must be at instant speed, the caster has to invest a signficiant amount of mana (4+ mana)</li>
 </ol>
 
 In the end the first restriction turned out to be too swingy. The common Champion cycle is strong; their stats were designed such that any one common Champion can trade with another Champion and they act as mana efficient french vanilla creatures usually slightly ahead of the curve. With a sorcery speed restriction the philopshy was to allow the Champion caster to always get value out of their creature. Compare to how Bestow or Mutate are worded to ensure the caster always gains something, we *cannot* do that here with how Champion is keyworded. 
