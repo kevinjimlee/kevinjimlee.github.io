@@ -55,13 +55,19 @@ This unfortunately created a play pattern where one player establishes a threate
 
 The second restriction worked well in principle, it significantly reduced any moment of feeling bad when casting a Champion and losing it for a two-for-one, as the large 4+ mana (typically 5 mana for the commons except for one blue instant) would telegraph the interaction and it communicated the risk the player was casting into.
 
-We ended up adjusting the first restriction (and made a bunch of spells wordier) by allowing these spells to be cast with flash but only during the combat phase. This ensured allowed interaction and mana to be spent on your opponents turn (which turns out to be a fundamental piece to how Magic works as a game), and guarantees the Champion caster always gained value from their creature.
+We ended up adjusting the first restriction (and made a bunch of spells wordier) by allowing these spells to be cast with flash but only during the combat phase. This allowed interaction and mana to be spent on your opponents turn (which turns out to be a fundamental piece to how Magic works as a game), and guarantees the Champion caster always gained value from their creature. These changes occured to the cheap interaction pieces.
+
+![Flames of the Beyond](https://raw.githubusercontent.com/kevinjimlee/mse/main/SMH/CR13%20%E2%80%94%20Flames%20of%20the%20Beyond.png)
+
+Another knob we adjusted was to incentivize the higher mana value interaction to be *desirable*. Common removal should be strong enough to deal with the threats that appear at rare and across the board at common. This design trend has been propogating across premier MTG sets as removal is key to limited: Bombs need ways to be dealt with. By twisting the timing incentive, we adjust the pieces to question *when* should you play pieces? 
+![Soul Reaving](https://raw.githubusercontent.com/kevinjimlee/mse/main/SMH/CB12%20%E2%80%94%20Soul%20Reaving.png)
+
+With the looping interaction that Champion leads with its exile clause, we leaned to use LTB effects as the central focus for the set. Many sets and designers use ETBs as you want to accrue the value immediately when you play any card, but for the design of SMH we wanted to really play in that *when* question. *When* are you getting that value of your card?
+
+At the face of it the value of an LTB effect versus ETB effect is only a matter of how soon that effect resolves.
 
 
-Another knob we adjusted was to 
-![Soul Reaving](https://raw.githubusercontent.com/kevinjimlee/mse/main/SMH/CB122%20%E2%80%94%20Soul%20Reaving.png)
-
-
-## Champions are Glorified Auras with Summoning Sickness. What else can we do?
+## Champions are Glorified Auras
+So what else can we do with Champion?
 
 ## The Cycle of Five 4-Colour Legends
