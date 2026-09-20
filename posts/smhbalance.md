@@ -65,8 +65,23 @@ Another knob we adjusted was to incentivize the higher mana value interaction to
 
 With the looping interaction that Champion leads with its exile clause, we leaned to use LTB effects as the central focus for the set. Many sets and designers use ETBs as you want to accrue the value immediately when you play any card, but for the design of SMH we wanted to really play in that *when* question. *When* are you getting that value of your card?
 
-At the face of it the value of an LTB effect versus ETB effect is only a matter of how soon that effect resolves.
+At the face of it the value of an LTB effect versus ETB effect is only a matter of how soon that effect resolves. Except when your entire set is built around the LTB effects it makes every trade matter, as now it's not just removing your opponents creature but giving them some form of value back in exchange.
 
+This played into the nature of the intial swingyness as a Champion could exile a creature with a strong LTB effect. If you kill the power
+
+![Irresolute Reinforcement](https://raw.githubusercontent.com/kevinjimlee/mse/main/SMH/CW04%20%E2%80%94%20Irresolute%20Reinforcement.png)
+
+One way we tapered these effects was tying some effects to only Championed. As Champion is a keyword we can use the rules to call out this specific action to further tie the Champion mechanic into the set's entire structure.
+
+![Think Vessel](https://raw.githubusercontent.com/kevinjimlee/mse/main/SMH/CU03%20%E2%80%94%20Think%20Vessel.png)
+
+As seen in Think Vessel above, there was one additional gap identified (at common) in the set: A mechanic to push through board stalls. At the time I called the mecahnic "Creature Flashback", and then within the next year TDM would release the ability word *Renew*, but there's multiple cycles of creatures with exile from graveyard abilities.
+
+One constraint we took in designing SMH was to purposefully limit the strict number of cards that drew you cards. In my personal opinion it can be a very "lazy" short hand design to make a card desireable by tacking on "draw a card" to incentivize it more. To ensure card advantage was still flowing in *a* capacity in the set, these exile effects would play into the same area that Flashback was intially created for.
+
+On an additional personal note, I am not a fan of limited games where the games stall out. I wanted to purposefully give players a tool so they always have *something* to help them close out or push forward. This reflected in the gameplay, players had tools to get them ahead and eek outa advantages here and there. This also allowed us to seed in effects to ensure creature density was always present so players could have *something* to Champion onto through token generation. (More on token generation later.)
+
+![Defensive Spriggan](https://raw.githubusercontent.com/kevinjimlee/mse/main/SMH/CG08%20%E2%80%94%20Defensive%20Spriggan.png)
 
 ## Champions are Glorified Auras
 So what else can we do with Champion?
