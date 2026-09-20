@@ -59,7 +59,8 @@ We ended up adjusting the first restriction (and made a bunch of spells wordier)
 
 ![Flames of the Beyond](https://raw.githubusercontent.com/kevinjimlee/mse/main/SMH/CR13%20%E2%80%94%20Flames%20of%20the%20Beyond.png)
 
-Another knob we adjusted was to incentivize the higher mana value interaction to be *desirable*. Common removal should be strong enough to deal with the threats that appear at rare and across the board at common. This design trend has been propogating across premier MTG sets as removal is key to limited: Bombs need ways to be dealt with. By twisting the timing incentive, we adjust the pieces to question *when* should you play pieces? 
+Another knob we adjusted was to incentivize the higher mana value interaction to be *desirable*. Common removal should be strong enough to deal with the threats that appear at rare and across the board at common. This design trend has been propogating across premier MTG sets as removal is key to limited: Bombs need ways to be dealt with. By twisting the timing incentive, we adjust the pieces to question *when* should you play pieces?
+
 ![Soul Reaving](https://raw.githubusercontent.com/kevinjimlee/mse/main/SMH/CB12%20%E2%80%94%20Soul%20Reaving.png)
 
 With the looping interaction that Champion leads with its exile clause, we leaned to use LTB effects as the central focus for the set. Many sets and designers use ETBs as you want to accrue the value immediately when you play any card, but for the design of SMH we wanted to really play in that *when* question. *When* are you getting that value of your card?
