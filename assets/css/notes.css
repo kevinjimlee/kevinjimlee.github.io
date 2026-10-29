@@ -7,3 +7,34 @@ footer {
   margin-inline: auto;
   max-width: 65ch;
 }
+
+img {
+  max-width: 100%;
+}
+
+:root {
+  --text-color: #303036;
+  --muted-text-color: #5e5e67;
+  --heading-color: #cd2807;
+  --link-color: #028090;
+  --background-color: #fffdf7;
+
+  --heading-font: 'Oswald', sans-serif;
+  --body-font: 'Source Sans 3', sans-serif;
+}
+
+
+html {
+  font-family: var(--body-font);
+  font-size: 20px;
+  line-height: 1.45;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+main * {
+  margin-block-start: 0;
+  margin-block-end: 1rem;
+  /* or we could use the shortcut syntax like this */
+  margin-block: 0 1rem;
+}
