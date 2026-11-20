@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr"
+    data-theme="light"
+    data-layout="centered">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+  <meta name="generator" content="Hugo 0.169.0">
+  <meta name="generator-theme" content="Book Theme: https://github.com/alex-shpak/hugo-book">
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="KaTeXRender math typesetting with KaTeX.
+ActivationKaTeX styles are included on the page by the first use of the shortcode or a katex code block. In order to use delimiters passthrough needs to be configured.
+Block RenderingThree equivalent ways to render display math:
+Shortcode{{&lt; katex displayMode=true &gt;}} f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi {{&lt; /katex &gt;}} Code block```katex f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi ``` Dollar delimiters$$ f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi $$ Result:
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark">
+<meta name="format-detection" content="telephone=no"><meta property="og:url" content="http://localhost:1313/docs/content/shortcodes/katex/">
+	<meta property="og:site_name" content="My New Hugo Project">
+	<meta property="og:title" content="KaTeX">
+	<meta property="og:description" content="KaTeXRender math typesetting with KaTeX.
+ActivationKaTeX styles are included on the page by the first use of the shortcode or a katex code block. In order to use delimiters passthrough needs to be configured.
+Block RenderingThree equivalent ways to render display math:
+Shortcode{{&lt; katex displayMode=true &gt;}} f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi {{&lt; /katex &gt;}} Code block```katex f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi ``` Dollar delimiters$$ f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi $$ Result:">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="docs">
+
+
+	<meta itemprop="name" content="KaTeX">
+	<meta itemprop="description" content="KaTeXRender math typesetting with KaTeX.
+ActivationKaTeX styles are included on the page by the first use of the shortcode or a katex code block. In order to use delimiters passthrough needs to be configured.
+Block RenderingThree equivalent ways to render display math:
+Shortcode{{&lt; katex displayMode=true &gt;}} f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi {{&lt; /katex &gt;}} Code block```katex f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi ``` Dollar delimiters$$ f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi $$ Result:">
+	<meta itemprop="wordCount" content="181">
+
+<title>KaTeX • My New Hugo Project</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.png" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/docs/content/shortcodes/katex/">
+<link rel="stylesheet" href="/book.min.744580663b76732a2e0d75f87cbd539117d0ba6f0564f993fe275aa1967a6766.css" integrity="sha256-dEWAZjt2cyouDXX4fL1TkRfQum8FZPmT/idaoZZ6Z2Y=" crossorigin="anonymous">
+
+
+<script type="module" src="/en.search.min.9cfb103485218ebd8bc289a77cda476e318d89a7d2ba0aa1f5ed9b2e191d2c6f.js" integrity="sha256-nPsQNIUhjr2LwomnfNpHbjGNiafSugqh9e2bLhkdLG8=" crossorigin="anonymous"></script>
+  
+</head>
+
+<body dir="ltr" class="book-kind-page book-type-docs">
+  <div class="book-container flex">
+    
+<aside class="book-menu" aria-label="Menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<div class="book-brand">
+  <a class="flex align-center" href="/"><span>My New Hugo Project</span>
+  </a>
+</div>
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" role="searchbox" enterkeyhint="search"
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results" aria-live="polite"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a>
+      <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#rocket"></use></svg>Getting Started</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/getting-started/introduction/" class="">
+      Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/getting-started/create-a-site/" class="">
+      Create a Site</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/getting-started/configuration/" class="">
+      Configuration</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a>
+      <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#edit"></use></svg>Content &amp; Structure</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/organisation/" class="">
+      Organisation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/pages/" class="">
+      Pages</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/menus/" class="">
+      Menus</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/blog/" class="">
+      Blog</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/multilingual/" class="">
+      Multi-Language</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-752dc4cd10165c2809d7abbde8f2d7cd" class="toggle" checked />
+    <label for="section-752dc4cd10165c2809d7abbde8f2d7cd" class="flex">
+      <a href="/docs/content/shortcodes/" class="">
+        Shortcodes</a>
+      <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#chevron-right"></use></svg>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/asciinema/" class="">
+      Asciinema</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/buttons/" class="">
+      Buttons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/columns/" class="">
+      Columns</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/details/" class="">
+      Details</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-376bf8e1d79bdb7830944a38c670bb5f" class="toggle"  />
+    <label for="section-376bf8e1d79bdb7830944a38c670bb5f" class="flex">
+      <a role="button" class="">
+        Experimental</a>
+      <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#chevron-right"></use></svg>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/experimental/images/" class="">
+      Images</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/hints/" class="">
+      Hints</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/mermaid/" class="">
+      Mermaid</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/steps/" class="">
+      Steps</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/tabs/" class="">
+      Tabs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/katex/" class="active">
+      KaTeX</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a>
+      <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#apparel"></use></svg>Customization</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/customization/styles/" class="">
+      Styles</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/customization/inject-partials/" class="">
+      Inject Partials</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+<ul><li><a href="/posts/" title="Blog">Blog</a></li></ul>
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <header class="book-header hidden">
+      
+  <div class="flex align-center justify-between gap">
+  <input type="checkbox" class="toggle" id="menu-control" />
+  <label for="menu-control" aria-label="Menu">
+    <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#menu"></use></svg>
+  </label>
+
+  <div class="book-brand">
+  <a class="flex align-center" href="/"><span>My New Hugo Project</span>
+  </a>
+</div>
+
+
+  
+  <input type="checkbox" class="toggle" id="toc-control" />
+  <label for="toc-control" aria-label="Table of Contents">
+    <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#toc"></use></svg>
+  </label>
+  
+</div>
+
+ 
+    </header>
+
+    <main class="book-page">
+      
+      
+  
+
+      
+  <article class="markdown book-article"><h1 id="katex">KaTeX<a class="anchor" href="#katex" aria-label="Link"></a></h1>
+<p>Render math typesetting with <a href="https://katex.org/">KaTeX</a>.</p>
+<h2 id="activation">Activation<a class="anchor" href="#activation" aria-label="Link"></a></h2>
+<p>KaTeX styles are included on the page by the first use of the shortcode or a <code>katex</code> code block. In order to use delimiters <a href="#passthrough">passthrough</a> needs to be configured.</p>
+<h2 id="block-rendering">Block Rendering<a class="anchor" href="#block-rendering" aria-label="Link"></a></h2>
+<p>Three equivalent ways to render display math:</p>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<h4 id="shortcode">Shortcode<a class="anchor" href="#shortcode" aria-label="Link"></a></h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#a6e22e">katex</span> <span style="color:#a6e22e">displayMode</span><span style="color:#f92672">=</span><span style="color:#66d9ef">true</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>f(x) = \int_<span style="color:#75715e">{</span><span style="color:#f92672">-</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#a6e22e">infty</span><span style="color:#75715e">}</span>^\infty
+</span></span><span style="display:flex;"><span>\hat f(\xi)\,e^<span style="color:#75715e">{</span><span style="color:#ae81ff">2</span> <span style="color:#960050;background-color:#1e0010">\</span><span style="color:#a6e22e">pi</span> <span style="color:#a6e22e">i</span> <span style="color:#960050;background-color:#1e0010">\</span><span style="color:#a6e22e">xi</span> <span style="color:#a6e22e">x</span><span style="color:#75715e">}</span>\,d\xi
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">&lt;</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">katex</span> <span style="color:#f92672">&gt;</span><span style="color:#75715e">}}</span></span></span></code></pre></div></li>
+<li>
+<h4 id="code-block">Code block<a class="anchor" href="#code-block" aria-label="Link"></a></h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span>```katex
+</span></span><span style="display:flex;"><span>f(x) = \int_<span style="color:#75715e">{</span><span style="color:#f92672">-</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#a6e22e">infty</span><span style="color:#75715e">}</span>^\infty
+</span></span><span style="display:flex;"><span>\hat f(\xi)\,e^<span style="color:#75715e">{</span><span style="color:#ae81ff">2</span> <span style="color:#960050;background-color:#1e0010">\</span><span style="color:#a6e22e">pi</span> <span style="color:#a6e22e">i</span> <span style="color:#960050;background-color:#1e0010">\</span><span style="color:#a6e22e">xi</span> <span style="color:#a6e22e">x</span><span style="color:#75715e">}</span>\,d\xi
+</span></span><span style="display:flex;"><span>```</span></span></code></pre></div></li>
+<li>
+<h4 id="dollar-delimiters">Dollar delimiters<a class="anchor" href="#dollar-delimiters" aria-label="Link"></a></h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span>$$
+</span></span><span style="display:flex;"><span>f(x) = \int_<span style="color:#75715e">{</span><span style="color:#f92672">-</span><span style="color:#960050;background-color:#1e0010">\</span><span style="color:#a6e22e">infty</span><span style="color:#75715e">}</span>^\infty
+</span></span><span style="display:flex;"><span>\hat f(\xi)\,e^<span style="color:#75715e">{</span><span style="color:#ae81ff">2</span> <span style="color:#960050;background-color:#1e0010">\</span><span style="color:#a6e22e">pi</span> <span style="color:#a6e22e">i</span> <span style="color:#960050;background-color:#1e0010">\</span><span style="color:#a6e22e">xi</span> <span style="color:#a6e22e">x</span><span style="color:#75715e">}</span>\,d\xi
+</span></span><span style="display:flex;"><span>$$</span></span></code></pre></div></li>
+</ul>
+<!-- raw HTML omitted -->
+<p>Result:</p>
+<span class="katex"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><msubsup><mo>∫</mo><mrow><mo>−</mo><mi mathvariant="normal">∞</mi></mrow><mi mathvariant="normal">∞</mi></msubsup><mover accent="true"><mi>f</mi><mo>^</mo></mover><mo stretchy="false">(</mo><mi>ξ</mi><mo stretchy="false">)</mo><mtext> </mtext><msup><mi>e</mi><mrow><mn>2</mn><mi>π</mi><mi>i</mi><mi>ξ</mi><mi>x</mi></mrow></msup><mtext> </mtext><mi>d</mi><mi>ξ</mi></mrow><annotation encoding="application/x-tex">f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi</annotation></semantics></math></span><link rel="stylesheet" href="/katex/katex.min.css" /><h2 id="inline-rendering">Inline Rendering<a class="anchor" href="#inline-rendering" aria-label="Link"></a></h2>
+<table>
+	<thead>
+			<tr>
+					<th>Syntax</th>
+					<th>Output</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>{{&lt; katex &gt;}}\pi(x){{&lt; /katex &gt;}}</code></td>
+					<td><span class="katex"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>π</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\pi(x)</annotation></semantics></math></span></td>
+			</tr>
+			<tr>
+					<td><code>\\( \pi(x) \\)</code></td>
+					<td><span class="katex"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>π</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\pi(x)</annotation></semantics></math></span></td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="parameters">Parameters<a class="anchor" href="#parameters" aria-label="Link"></a></h2>
+<p>Shortcode and block parameters are the same as original from <code>transform.ToMath</code>. See Hugo <a href="https://gohugo.io/functions/transform/tomath/#options">documentation</a></p>
+<h2 id="passthrough">Passthrough<a class="anchor" href="#passthrough" aria-label="Link"></a></h2>
+<p>Hugo offers a hook to render math as passthrough, without codeblocks or shortcodes. See <a href="https://gohugo.io/functions/transform/tomath/#example">configuration</a> in Hugo documentation.</p>
+<code class="book-codeblock-filename">
+  <a >hugo.yaml</a>
+</code><div class="highlight" filename="hugo.yaml"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">markup</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">goldmark</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">extensions</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">passthrough</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">enable</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">delimiters</span>:
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">block</span>:
+</span></span><span style="display:flex;"><span>          - [<span style="color:#e6db74">&#39;\[&#39;</span>, <span style="color:#e6db74">&#39;\]&#39;</span>]
+</span></span><span style="display:flex;"><span>          - [<span style="color:#e6db74">&#39;$$&#39;</span>, <span style="color:#e6db74">&#39;$$&#39;</span>]
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">inline</span>:
+</span></span><span style="display:flex;"><span>          - [<span style="color:#e6db74">&#39;\(&#39;</span>, <span style="color:#e6db74">&#39;\)&#39;</span>]</span></span></code></pre></div><code class="book-codeblock-filename">
+  <a >layouts/_markup/render-passthrough.html</a>
+</code><div class="highlight" filename="layouts/_markup/render-passthrough.html"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>{{<span style="color:#75715e">/*- $opts := dict &#34;displayMode&#34; (eq .Type &#34;block&#34;) -*/</span>}}
+</span></span><span style="display:flex;"><span>{{<span style="color:#75715e">/*- (transform.ToMath .Inner $opts) -*/</span>}}</span></span></code></pre></div></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+<div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/docs/content/shortcodes/tabs/" class="flex align-center">
+        <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#backward"></use></svg>
+        <span>Tabs</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="/docs/customization/styles/" class="flex align-center">
+        <span>Styles</span>
+        <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#forward"></use></svg>
+      </a>
+    
+    </span>
+  </div>
+
+ 
+        
+  
+ 
+        
+        
+  
+ 
+        
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay" aria-hidden="true"></label>
+    </main>
+
+    
+  
+  <aside class="book-toc" aria-label="Table of Contents">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#activation">Activation</a></li>
+    <li><a href="#block-rendering">Block Rendering</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#inline-rendering">Inline Rendering</a></li>
+    <li><a href="#parameters">Parameters</a></li>
+    <li><a href="#passthrough">Passthrough</a></li>
+  </ul>
+</nav>
+
+
+
+
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </div>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

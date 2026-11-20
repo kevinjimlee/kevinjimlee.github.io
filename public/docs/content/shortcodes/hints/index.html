@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr"
+    data-theme="light"
+    data-layout="centered">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+  <meta name="generator" content="Hugo 0.169.0">
+  <meta name="generator-theme" content="Book Theme: https://github.com/alex-shpak/hugo-book">
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="HintsCallout blocks for notes, warnings, and other contextual messages. Also supports standard GitHub markdown alerts.
+Syntax{{% hint [info|success|warning|danger] %}} Markdown content {{% /hint %}} Or using markdown alerts
+&gt; [!NOTE|TIP|IMPORTANT|WARNING|CAUTION] &gt; Markdown content ExampleDefault hint
+Without a specified type.
+Info
+Use for supplementary information that helps the reader.
+Success
+Use to highlight a recommended approach or positive outcome.
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
+<meta name="color-scheme" content="light dark">
+<meta name="format-detection" content="telephone=no"><meta property="og:url" content="http://localhost:1313/docs/content/shortcodes/hints/">
+	<meta property="og:site_name" content="My New Hugo Project">
+	<meta property="og:title" content="My New Hugo Project">
+	<meta property="og:description" content="HintsCallout blocks for notes, warnings, and other contextual messages. Also supports standard GitHub markdown alerts.
+Syntax{{% hint [info|success|warning|danger] %}} Markdown content {{% /hint %}} Or using markdown alerts
+&gt; [!NOTE|TIP|IMPORTANT|WARNING|CAUTION] &gt; Markdown content ExampleDefault hint
+Without a specified type.
+Info
+Use for supplementary information that helps the reader.
+Success
+Use to highlight a recommended approach or positive outcome.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="docs">
+
+
+	<meta itemprop="name" content="My New Hugo Project">
+	<meta itemprop="description" content="HintsCallout blocks for notes, warnings, and other contextual messages. Also supports standard GitHub markdown alerts.
+Syntax{{% hint [info|success|warning|danger] %}} Markdown content {{% /hint %}} Or using markdown alerts
+&gt; [!NOTE|TIP|IMPORTANT|WARNING|CAUTION] &gt; Markdown content ExampleDefault hint
+Without a specified type.
+Info
+Use for supplementary information that helps the reader.
+Success
+Use to highlight a recommended approach or positive outcome.">
+	<meta itemprop="wordCount" content="140">
+
+<title>Hints • My New Hugo Project</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.png" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/docs/content/shortcodes/hints/">
+<link rel="stylesheet" href="/book.min.744580663b76732a2e0d75f87cbd539117d0ba6f0564f993fe275aa1967a6766.css" integrity="sha256-dEWAZjt2cyouDXX4fL1TkRfQum8FZPmT/idaoZZ6Z2Y=" crossorigin="anonymous">
+
+
+<script type="module" src="/en.search.min.9cfb103485218ebd8bc289a77cda476e318d89a7d2ba0aa1f5ed9b2e191d2c6f.js" integrity="sha256-nPsQNIUhjr2LwomnfNpHbjGNiafSugqh9e2bLhkdLG8=" crossorigin="anonymous"></script>
+  
+</head>
+
+<body dir="ltr" class="book-kind-page book-type-docs">
+  <div class="book-container flex">
+    
+<aside class="book-menu" aria-label="Menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<div class="book-brand">
+  <a class="flex align-center" href="/"><span>My New Hugo Project</span>
+  </a>
+</div>
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" role="searchbox" enterkeyhint="search"
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results" aria-live="polite"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a>
+      <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#rocket"></use></svg>Getting Started</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/getting-started/introduction/" class="">
+      Introduction</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/getting-started/create-a-site/" class="">
+      Create a Site</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/getting-started/configuration/" class="">
+      Configuration</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a>
+      <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#edit"></use></svg>Content &amp; Structure</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/organisation/" class="">
+      Organisation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/pages/" class="">
+      Pages</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/menus/" class="">
+      Menus</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/blog/" class="">
+      Blog</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/multilingual/" class="">
+      Multi-Language</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-752dc4cd10165c2809d7abbde8f2d7cd" class="toggle" checked />
+    <label for="section-752dc4cd10165c2809d7abbde8f2d7cd" class="flex">
+      <a href="/docs/content/shortcodes/" class="">
+        Shortcodes</a>
+      <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#chevron-right"></use></svg>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/asciinema/" class="">
+      Asciinema</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/buttons/" class="">
+      Buttons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/columns/" class="">
+      Columns</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/details/" class="">
+      Details</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-376bf8e1d79bdb7830944a38c670bb5f" class="toggle"  />
+    <label for="section-376bf8e1d79bdb7830944a38c670bb5f" class="flex">
+      <a role="button" class="">
+        Experimental</a>
+      <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#chevron-right"></use></svg>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/experimental/images/" class="">
+      Images</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/hints/" class="active">
+      Hints</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/mermaid/" class="">
+      Mermaid</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/steps/" class="">
+      Steps</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/tabs/" class="">
+      Tabs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/content/shortcodes/katex/" class="">
+      KaTeX</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a>
+      <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#apparel"></use></svg>Customization</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/customization/styles/" class="">
+      Styles</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/customization/inject-partials/" class="">
+      Inject Partials</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+<ul><li><a href="/posts/" title="Blog">Blog</a></li></ul>
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <header class="book-header hidden">
+      
+  <div class="flex align-center justify-between gap">
+  <input type="checkbox" class="toggle" id="menu-control" />
+  <label for="menu-control" aria-label="Menu">
+    <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#menu"></use></svg>
+  </label>
+
+  <div class="book-brand">
+  <a class="flex align-center" href="/"><span>My New Hugo Project</span>
+  </a>
+</div>
+
+
+  
+  <input type="checkbox" class="toggle" id="toc-control" />
+  <label for="toc-control" aria-label="Table of Contents">
+    <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#toc"></use></svg>
+  </label>
+  
+</div>
+
+ 
+    </header>
+
+    <main class="book-page">
+      
+      
+  
+
+      
+  <article class="markdown book-article"><h1 id="hints">Hints<a class="anchor" href="#hints" aria-label="Link"></a></h1>
+<p>Callout blocks for notes, warnings, and other contextual messages. Also supports standard GitHub markdown alerts.</p>
+<h2 id="syntax">Syntax<a class="anchor" href="#syntax" aria-label="Link"></a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-tpl" data-lang="tpl"><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">%</span> <span style="color:#a6e22e">hint</span> <span style="color:#f92672">[</span><span style="color:#a6e22e">info</span><span style="color:#f92672">|</span><span style="color:#a6e22e">success</span><span style="color:#f92672">|</span><span style="color:#a6e22e">warning</span><span style="color:#f92672">|</span><span style="color:#a6e22e">danger</span><span style="color:#f92672">]</span> <span style="color:#f92672">%</span><span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>Markdown content
+</span></span><span style="display:flex;"><span><span style="color:#75715e">{{</span><span style="color:#f92672">%</span> <span style="color:#f92672">/</span><span style="color:#a6e22e">hint</span> <span style="color:#f92672">%</span><span style="color:#75715e">}}</span></span></span></code></pre></div><p>Or using markdown alerts</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">[!NOTE|TIP|IMPORTANT|WARNING|CAUTION]
+</span></span></span><span style="display:flex;"><span>&gt; Markdown content</span></span></code></pre></div><h2 id="example">Example<a class="anchor" href="#example" aria-label="Link"></a></h2>
+<!-- raw HTML omitted -->
+<p><strong>Default hint</strong><br>
+Without a specified type.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><strong>Info</strong><br>
+Use for supplementary information that helps the reader.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><strong>Success</strong><br>
+Use to highlight a recommended approach or positive outcome.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><strong>Warning</strong><br>
+Use for important caveats or potential issues.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><strong>Danger</strong><br>
+Use for critical warnings about breaking changes or data loss.</p>
+<!-- raw HTML omitted -->
+<h2 id="markdown-alerts">Markdown Alerts<a class="anchor" href="#markdown-alerts" aria-label="Link"></a></h2>
+<p>Standard GitHub markdown alert syntax is also supported:</p>
+<blockquote class='book-hint tip'>
+<p>Set <code>disablePathToLower = true</code> in your config to preserve URL casing.</p></blockquote><blockquote class='book-hint important'>
+<p>The <code>unsafe = true</code> goldmark setting is required for Mermaid and KaTeX shortcodes.</p></blockquote><blockquote class='book-hint warning'>
+<p>Service worker support is experimental and may change in future releases.</p></blockquote><blockquote class='book-hint caution'>
+<p>Enabling <code>BookPortableLinks = 'error'</code> will fail the build if any markdown link targets are missing.</p></blockquote></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+<div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/docs/content/shortcodes/experimental/images/" class="flex align-center">
+        <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#backward"></use></svg>
+        <span>Images</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="/docs/content/shortcodes/mermaid/" class="flex align-center">
+        <span>Mermaid</span>
+        <svg class="book-icon" aria-hidden="true"><use href="/iconset.min.7d79a4e0e81916d5e5994e3d00624e613432cb59d8c28fac0c06f5745ae52dde.svg#forward"></use></svg>
+      </a>
+    
+    </span>
+  </div>
+
+ 
+        
+  
+ 
+        
+        
+  
+ 
+        
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay" aria-hidden="true"></label>
+    </main>
+
+    
+  
+  <aside class="book-toc" aria-label="Table of Contents">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#syntax">Syntax</a></li>
+    <li><a href="#example">Example</a></li>
+    <li><a href="#markdown-alerts">Markdown Alerts</a></li>
+  </ul>
+</nav>
+
+
+
+
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </div>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
