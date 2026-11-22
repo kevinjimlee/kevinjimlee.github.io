@@ -2,3 +2,7 @@ theme = 'ananke'
 title = 'My frst Ananke Site'
 baseURL = 'https://kevinjimlee.github.io'
 locasle = 'en-us'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
