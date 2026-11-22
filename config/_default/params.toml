@@ -5,6 +5,8 @@ show_recent_posts = true
 [params]
 recent_posts_number = 3
 mainSections = ["posts"]
+read_more_copy = "Read more"
+show_reading_time = true
 
 [ananke.home]
 content_alignment = "left"

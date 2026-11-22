@@ -3,7 +3,9 @@ title = 'Kevin Jim Lee'
 baseURL = 'https://kevinjimlee.github.io'
 locale = 'en-us'
 
-
+[taxonomies]
+tag = "tags"
+category = "categories"
 
 [caches]
   [caches.images]

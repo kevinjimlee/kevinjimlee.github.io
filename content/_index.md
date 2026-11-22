@@ -1,5 +1,6 @@
 +++
 title = "Welcome to my site"
+featured_image = "/images/headshot2024.jpg"
 +++
 
 I AM LEARNING THINGS with Hugo and Ananke. First post!

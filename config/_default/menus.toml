@@ -8,3 +8,8 @@ weight = 10
 name = "Posts"
 pageRef = "/posts/"
 weight = 20
+
+[[main]]
+name = "About"
+pageRef = "/about/"
+weight = 30

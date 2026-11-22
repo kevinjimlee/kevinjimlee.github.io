@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>TEST on Kevin Jim Lee</title>
-		<link>http://localhost:1313/tags/test/</link>
+		<link>https://kevinjimlee.github.io/tags/test/</link>
 		<description>Recent content in TEST on Kevin Jim Lee</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Sun, 22 Nov 2026 11:27:21 -0500</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://kevinjimlee.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>My First Post</title>
-				<link>http://localhost:1313/posts/my-first-post/</link>
+				<link>https://kevinjimlee.github.io/posts/my-first-post/</link>
 				<pubDate>Sun, 22 Nov 2026 11:27:21 -0500</pubDate>
-				<guid>http://localhost:1313/posts/my-first-post/</guid>
+				<guid>https://kevinjimlee.github.io/posts/my-first-post/</guid>
 				<description>&lt;h1 id=&#34;what-i-built&#34;&gt;What I built&lt;/h1&gt;&#xA;&lt;p&gt;My site has a homepage and a post. Next, I will add navigation between them.&lt;/p&gt;</description>
 			</item>
 	</channel>
