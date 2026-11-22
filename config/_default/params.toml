@@ -1,0 +1,10 @@
+
+[ananke]
+show_recent_posts = true
+
+[params]
+recent_posts_number = 3
+mainSections = ["posts"]
+
+[ananke.home]
+content_alignment = "left"
