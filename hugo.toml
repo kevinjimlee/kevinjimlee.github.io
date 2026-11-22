@@ -1,6 +1,6 @@
 theme = 'ananke'
 title = 'My frst Ananke Site'
-baseURL = 'https://kevinjimlee.com'
+baseURL = 'https://kevinjimlee.github.io'
 locasle = 'en-us'
 
 [caches]
