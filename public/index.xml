@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Welcome to my site on My frst Ananke Site</title>
-		<link>https://kevinjimlee.github.io/</link>
+		<link>http://localhost:1313/</link>
 		<description>Recent content in Welcome to my site on My frst Ananke Site</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -12,13 +12,34 @@
 		
 			<lastBuildDate>Sun, 22 Nov 2026 11:27:21 -0500</lastBuildDate>
 		
-			<atom:link href="https://kevinjimlee.github.io/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>My First Post</title>
-				<link>https://kevinjimlee.github.io/posts/my-first-post/</link>
+				<link>http://localhost:1313/posts/my-first-post/</link>
 				<pubDate>Sun, 22 Nov 2026 11:27:21 -0500</pubDate>
-				<guid>https://kevinjimlee.github.io/posts/my-first-post/</guid>
+				<guid>http://localhost:1313/posts/my-first-post/</guid>
 				<description>&lt;h1 id=&#34;what-i-built&#34;&gt;What I built&lt;/h1&gt;&#xA;&lt;p&gt;My site has a homepage and a post. Next, I will add navigation between them.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/posts/fourth/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/fourth/</guid>
+				<description>&lt;h1 id=&#34;this-is-the-fourth-test&#34;&gt;This is the Fourth Test&lt;/h1&gt;&#xA;&lt;p&gt;This one was published on the laptop remotely!&#xA;Look Ale!!!!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/posts/second-post/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/second-post/</guid>
+				<description>&lt;p&gt;#Here is a Second Post&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;re trying something new!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/posts/third/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/third/</guid>
+				<description>&lt;h1 id=&#34;here-is-a-third-post&#34;&gt;Here Is a Third Post&lt;/h1&gt;&#xA;&lt;p&gt;This one is generated directly remotely!&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

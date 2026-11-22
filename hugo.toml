@@ -6,3 +6,5 @@ locasle = 'en-us'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+    # hugo server --minify --themesDir ../..
